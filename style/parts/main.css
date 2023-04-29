@@ -1,0 +1,64 @@
+/* ============ ROOT ============ */
+
+:root {
+   --section-margin: 20px 0;
+}
+
+/* ============ MAIN ============ */
+
+.main {
+   width: 100%;
+   flex: 1 0 auto;
+
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+   border-radius: var(--border-s);
+   background-color: rgba(0, 0, 0, 0.1);
+}
+
+.lmSelects {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.lmSelects .form-group {
+   margin: 10px;
+}
+
+
+/* ============ ANIMATION ============ */
+
+@media (min-width: 768px) {}
+
+/* ============ MEDIA ============ */
+
+@media (max-width: 1024px) {
+   :root {}
+}
+
+@media (max-width: 768px) {
+   :root {
+      --section-margin: 10px 0;
+   }
+}
+
+@media (max-width: 500px) {
+   :root {}
+}
+
+@media (max-width: 425px) {
+   :root {}
+}
+
+@media (max-width: 375px) {
+   :root {}
+}
+
+@media (max-width: 320px) {
+   :root {}
+}
+
+/* ============ END :) ============ */

@@ -1,5 +1,17 @@
-# lmSelect
-HTML Castomization of the SELECT element.
+<p align="center">
+	<a href="https://github.com/luamoris">
+		<img width="200" src="https://cutt.ly/U72fY1a" alt="Logo"/>
+	</a>
+</p>
+<h3 align="center"><strong>LUAMORIS</strong></h3>
+<p align="center">
+	<a href="https://luamoris.com">luamoris.com</a>
+</p>
+
+<h2 align="center"><strong>LmSELECT</strong></h2>
+
+
++ HTML Castomization of the SELECT element
 
 #### Example
 
@@ -29,7 +41,8 @@ HTML Castomization of the SELECT element.
 
 ##### How it works
 
-###### `index.html`
+`index.html`
+
 ```html
 <!-- Select 1 -->
 <div id="formId1" class="form-group">
@@ -64,7 +77,8 @@ HTML Castomization of the SELECT element.
 </div>
 ```
 
-###### `main.js`
+`main.js`
+
 ```js
 function logData(data) {
    console.log(data);
@@ -79,7 +93,8 @@ const selectorForm2 = new lmSelect(document, selectorId2);
 selectorForm2.init(logData);
 ```
 
-###### `lmSelect.css`
+`lmSelect.css`
+
 ```css
 .dropdown {
    box-sizing: border-box;
@@ -199,3 +214,13 @@ selectorForm2.init(logData);
    background: rgba(40, 54, 68, 1);
 }
 ```
+
+---
+
+#### AUTHOR
+
+<p align="left">
+	<a href="https://luamoris.com">
+		<img style="border-radius: 4px;" width="50" src="https://avatars.githubusercontent.com/u/70754306?s=460&u=922c28870849f7c9528034f0512e69fb77339c84&v=4" alt="Iosif Luamoris"/>
+	</a>
+</p>
