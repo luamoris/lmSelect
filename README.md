@@ -4,20 +4,21 @@ HTML Castomization of the SELECT element.
 #### Example
 
 ##### How to connect
+
 ```html
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
    <!-- Import LmSelector style -->
-   <link rel="stylesheet" href="./lmSelect/lmSelect.css">
+   <link rel="stylesheet" type="text/css" href="https://luamoris.github.io/lmSelect/lmSelect/lmSelect.css">
 </head>
 
 <body>
    <!-- Your code -->
 
    <!-- Import LmSelector script -->
-   <script src="./lmSelect/LmSelect.js"></script>
+   <script src="https://luamoris.github.io/lmSelect/lmSelect/lmSelect.js"></script>
 
    <!-- Your main.js -->
    <script src="./main.js"></script>
@@ -25,6 +26,8 @@ HTML Castomization of the SELECT element.
 
 </html>
 ```
+
+##### How it works
 
 ###### `index.html`
 ```html
