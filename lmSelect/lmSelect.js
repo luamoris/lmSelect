@@ -28,7 +28,7 @@ const lmShotKeys = {
 }
 
 class LmSelect {
-   constructor(document, selectorId) {
+   constructor(selectorId) {
       const wrapper = document.getElementById(selectorId);
 
       this.visible = false;
